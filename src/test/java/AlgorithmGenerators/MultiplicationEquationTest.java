@@ -22,8 +22,17 @@ public class MultiplicationEquationTest {
     public void shouldReturnEquationString(){
         sut = new MultiplicationEquation(50);
         String str = sut.generateEquation();
-        
+
         Assert.assertTrue(str != null && str.length() > 0);
+    }
+
+    @Test
+    public void shouldReturnValueTimesOne(){
+        sut = new MultiplicationEquation(1);
+        String actual = sut.generateEquation();
+        String expected = "1 * 1";
+
+        Assert.assertEquals(expected, actual);
     }
 
 

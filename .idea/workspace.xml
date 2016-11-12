@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e4be0b-d068-443c-9d4d-96f2c3dcfa09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/AdditionEquation.java" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/AdditionEquation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" afterPath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" />
     </list>
     <ignored path="MathGame_Maven.iws" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="MultiplicationEquation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="180">
+              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
               <folding>
                 <element signature="e#203#204#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
@@ -75,8 +74,8 @@
       <file leaf-file-name="MultiplicationEquationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="425">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -108,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/AdditionEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/AdditionEquation.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/EquationBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
       </list>
     </option>
   </component>
@@ -673,15 +672,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdditionEquationTest - 2016.11.12 at 14h 42m 46s.xml">
-      <configuration name="AdditionEquationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdditionEquationTest - 2016.11.12 at 14h 44m 29s.xml">
-      <configuration name="AdditionEquationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AdditionEquationTest - 2016.11.12 at 14h 47m 06s.xml">
-      <configuration name="AdditionEquationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_TDD_MathGame - 2016.11.12 at 15h 20m 11s.xml">
       <configuration name="All in TDD_MathGame" configurationId="JUnit" />
     </history-entry>
@@ -703,6 +693,15 @@
     <history-entry file="MultiplicationEquationTest - 2016.11.12 at 15h 55m 33s.xml">
       <configuration name="MultiplicationEquationTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MultiplicationEquationTest - 2016.11.12 at 16h 06m 12s.xml">
+      <configuration name="MultiplicationEquationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationEquationTest - 2016.11.12 at 16h 06m 57s.xml">
+      <configuration name="MultiplicationEquationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiplicationEquationTest - 2016.11.12 at 16h 07m 09s.xml">
+      <configuration name="MultiplicationEquationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -715,7 +714,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8519737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4588816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -780,17 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/AdditionEquation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -821,10 +809,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>
