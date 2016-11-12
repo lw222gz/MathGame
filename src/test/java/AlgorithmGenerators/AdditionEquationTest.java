@@ -20,6 +20,11 @@ public class AdditionEquationTest {
     public void shouldReturnEquationString(){
         sut = new AdditionEquation(50);
         String str = sut.generateEquation();
+        System.out.println(str);
+        for(int i = 0; i < 15; i++){
+            System.out.println(sut.generateEquation());
+        }
+
         Assert.assertTrue(str != null && str.length() > 0);
     }
 
