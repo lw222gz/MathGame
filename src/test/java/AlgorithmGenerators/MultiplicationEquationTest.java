@@ -22,7 +22,7 @@ public class MultiplicationEquationTest {
     public void shouldReturnEquationString(){
         sut = new MultiplicationEquation(50);
         String str = sut.generateEquation();
-
+        
         Assert.assertTrue(str != null && str.length() > 0);
     }
 
