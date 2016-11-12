@@ -5,14 +5,10 @@ import java.util.Random;
 /**
  * Created by Lucas on 2016-11-12.
  */
-public class MultiplicationEquation {
-
-    private int value;
-    private Random rand;
+public class MultiplicationEquation extends EquationBase {
 
     public MultiplicationEquation(int value){
-        this.value = value;
-        rand = new Random();
+        super(value);
     }
 
     public String generateEquation(){

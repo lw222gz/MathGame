@@ -5,16 +5,10 @@ import java.util.Random;
 /**
  * Created by Lucas on 2016-11-12.
  */
-public class AdditionEquation {
-
-    //sum of equation
-    private int value;
-
-    private Random rand;
+public class AdditionEquation extends EquationBase{
 
     public AdditionEquation(int value){
-        this.value = value;
-        rand = new Random();
+        super(value);
     }
 
 
