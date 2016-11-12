@@ -36,7 +36,7 @@ public class AdditionEquation {
             }
 
         }
-        
+
         if(equationValue > 0){
             equationString += equationValue;
         }
