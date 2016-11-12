@@ -21,6 +21,9 @@ public class AdditionEquationTest {
         sut = new AdditionEquation(50);
         String str = sut.generateEquation();
 
+        for(int i = 0; i < 20; i++){
+            System.out.println(sut.generateEquation());
+        }
         Assert.assertTrue(str != null && str.length() > 0);
     }
 
