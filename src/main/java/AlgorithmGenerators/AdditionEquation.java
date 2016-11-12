@@ -28,6 +28,10 @@ public class AdditionEquation {
             sumOfEquation -= splitValue;
             equationString += splitValue + " + ";
 
+            if(sumOfEquation <= 0){
+                break;
+            }
+
         }
         //30+20+0 passes
         equationString += sumOfEquation;
