@@ -20,9 +20,18 @@ public class AdditionEquationTest {
     public void shouldReturnEquationString(){
         sut = new AdditionEquation(50);
         String str = sut.generateEquation();
-        System.out.println(str);
 
         Assert.assertTrue(str != null && str.length() > 0);
+    }
+
+
+    @Test
+    public void shouldReturnJustOne(){
+        sut = new AdditionEquation(1);
+        String actual = sut.generateEquation();
+        String expected = "1";
+
+        Assert.assertEquals(expected, actual);
     }
 
 }
