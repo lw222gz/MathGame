@@ -11,14 +11,18 @@ public class MultiplicationEquation extends EquationBase {
         super(value);
     }
 
+    //Generates and returns a String representation of a multiplication equation, possible addition might be used
+    //To balance out to provided the wanted value
     public String generateEquation(){
 
+        //by default I want only to use low number multiplication.
+        //TODO: future implementation with higher difficulties increase the multiplication value
         int multiplicationValue = rand.nextInt(9) + 2; //random value between 2-10
         if(multiplicationValue >= value){
             return value + " * 1";
         }
-        
-        int secondMultiplicationValue = 0;
+
+        int secondMultiplicationValue;
         int rest = value % multiplicationValue;
         //If rest is 0 then value/multiplicationValue will provide a second value for the equation to calculate the value
         if(rest == 0){

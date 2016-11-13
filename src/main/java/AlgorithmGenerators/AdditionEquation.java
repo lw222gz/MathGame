@@ -12,9 +12,11 @@ public class AdditionEquation extends EquationBase{
     }
 
 
+    //Generates and returns a string representation of a Addition equation
     public String generateEquation(){
         int equationValue = value;
-        int amountOfSplits = 2;//rand.nextInt(2) + 1; //random value 1 or 2.
+        //TODO: future implementation, increase amount of possible splits
+        int amountOfSplits = rand.nextInt(2) + 1; //random value 1 or 2.
         String equationString = "";
 
         for(int i = 0; i < amountOfSplits; i++){
