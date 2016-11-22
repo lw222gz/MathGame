@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" line="25" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" line="29" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e4be0b-d068-443c-9d4d-96f2c3dcfa09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AlgorithmGenerators/DivisionEquationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AlgorithmGenerators/DivisionEquationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" afterPath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
     </list>
     <ignored path="MathGame_Maven.iws" />
@@ -39,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="357">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+            <state relative-caret-position="388">
+              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,8 +87,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/AdditionEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
       </list>
     </option>
   </component>
@@ -673,12 +672,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DivisionEquationTest - 2016.11.22 at 14h 47m 16s.xml">
-      <configuration name="DivisionEquationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DivisionEquationTest - 2016.11.22 at 14h 47m 33s.xml">
-      <configuration name="DivisionEquationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivisionEquationTest - 2016.11.22 at 14h 50m 22s.xml">
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
@@ -701,6 +694,12 @@
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DivisionEquationTest - 2016.11.22 at 15h 11m 53s.xml">
+      <configuration name="DivisionEquationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionEquationTest - 2016.11.22 at 15h 17m 52s.xml">
+      <configuration name="DivisionEquationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionEquationTest - 2016.11.22 at 15h 19m 38s.xml">
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1169,18 +1168,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="388">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+        <state relative-caret-position="357">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding />
         </state>
       </provider>

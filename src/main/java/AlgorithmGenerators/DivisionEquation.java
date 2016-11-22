@@ -20,6 +20,10 @@ public class DivisionEquation extends EquationBase {
         int numerator = rand.nextInt(91) + 10;
         int denominator = rand.nextInt(10) + 1;
 
+        if(numerator % denominator != 0){
+            numerator -= numerator % denominator;
+        }
+
         String equationString = numerator + " / " + denominator;
 
         if(value - (numerator/denominator) > 0){
