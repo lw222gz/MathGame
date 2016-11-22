@@ -17,6 +17,6 @@ public class DivisionEquation extends EquationBase {
     }
 
     public String generateEquation(){
-        return null;
+        return "Equation String";
     }
 }
