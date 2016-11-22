@@ -22,17 +22,13 @@ public class DivisionEquationTest {
     @Test
     public void shouldReturnEquationString(){
 
-        sut = new DivisionEquation(27, new Random());
+        sut = new DivisionEquation(50, new Random());
         String actual = sut.generateEquation();
-        for(int i = 0; i < 50; i++){
-            System.out.println(sut.generateEquation());
-        }
 
         Assert.assertTrue(actual != null && actual.length() > 0);
     }
 
-    @Test
-    public void shouldGenerate
+
 
 
 

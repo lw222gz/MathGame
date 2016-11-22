@@ -17,9 +17,6 @@ public class DivisionEquation extends EquationBase {
     }
 
     public String generateEquation(){
-        int denominator = rand.nextInt(9) + 2;
-        int numerator = denominator * value;
-
-        return numerator + " / " + denominator;
+        return null;
     }
 }
