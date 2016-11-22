@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e4be0b-d068-443c-9d4d-96f2c3dcfa09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" afterPath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
     </list>
     <ignored path="MathGame_Maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -47,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="430">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/AdditionEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
       </list>
     </option>
   </component>
@@ -671,9 +671,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdditionEquationTest - 2016.11.21 at 14h 35m 27s.xml">
-      <configuration name="AdditionEquationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DivisionEquationTest - 2016.11.21 at 14h 59m 45s.xml">
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
@@ -684,6 +681,9 @@
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DivisionEquationTest - 2016.11.22 at 13h 37m 13s.xml">
+      <configuration name="DivisionEquationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DivisionEquationTest - 2016.11.22 at 13h 37m 57s.xml">
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MultiplicationEquationTest - 2016.11.21 at 14h 43m 56s.xml">
@@ -821,7 +821,7 @@
         <state relative-caret-position="901">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -866,7 +866,7 @@
         <state relative-caret-position="901">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,7 +925,7 @@
         <state relative-caret-position="340">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -992,7 +992,7 @@
         <state relative-caret-position="340">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,7 +1059,7 @@
         <state relative-caret-position="340">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,7 +1107,7 @@
         <state relative-caret-position="340">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1155,7 @@
         <state relative-caret-position="901">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1182,14 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1198,6 +1190,14 @@
             <element signature="e#561#562#0" expanded="true" />
             <element signature="e#601#602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
