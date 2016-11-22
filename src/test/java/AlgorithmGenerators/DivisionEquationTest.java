@@ -42,7 +42,7 @@ public class DivisionEquationTest {
 
         //This is to simulate the denominator roll
         //This is expected to be added by 1 because a denominator should never be abel to be zero.
-        when(randMock.nextInt(10)).thenReturn(9);
+        when(randMock.nextInt(10)).thenReturn(1);
 
         String actual = sut.generateEquation();
         String expected = "100 / 2";
