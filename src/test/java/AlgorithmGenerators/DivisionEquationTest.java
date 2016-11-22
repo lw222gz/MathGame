@@ -50,6 +50,27 @@ public class DivisionEquationTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void shouldHandleRemainingValuePlus(){
+        Random randMock = Mockito.mock(Random.class);
+        sut = new DivisionEquation(50, randMock);
+
+        //This is to simulate the numerator roll,
+        //This is expected to be added by 10 because the numerator should not be lower than 10
+        when(randMock.nextInt(91)).thenReturn(90);
+
+        //This is to simulate the denominator roll
+        //This is expected to be added by 1 because a denominator should never be abel to be zero.
+        when(randMock.nextInt(10)).thenReturn(3);
+
+        String actual = sut.generateEquation();
+        String expected = "100 / 4 + 25";
+
+        System.out.println(actual);
+
+        Assert.assertEquals(expected, actual);
+    }
+
 
 
 
