@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8e4be0b-d068-443c-9d4d-96f2c3dcfa09" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" afterPath="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" afterPath="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
     </list>
     <ignored path="MathGame_Maven.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,17 +37,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DivisionEquation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            <state relative-caret-position="408">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DivisionEquationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -86,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/AdditionEquationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/MultiplicationEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/MultiplicationEquationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
         <option value="$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java" />
       </list>
     </option>
   </component>
@@ -698,8 +698,8 @@
     <history-entry file="DivisionEquationTest - 2016.11.22 at 14h 56m 43s.xml">
       <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiplicationEquationTest - 2016.11.21 at 14h 52m 30s.xml">
-      <configuration name="MultiplicationEquationTest" configurationId="JUnit" />
+    <history-entry file="DivisionEquationTest - 2016.11.22 at 14h 59m 11s.xml">
+      <configuration name="DivisionEquationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1167,18 +1167,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AlgorithmGenerators/DivisionEquationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AlgorithmGenerators/DivisionEquation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding />
         </state>
       </provider>

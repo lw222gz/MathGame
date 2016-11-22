@@ -25,6 +25,9 @@ public class DivisionEquation extends EquationBase {
         if(value - (numerator/denominator) > 0){
             equationString += " + " + (value - (numerator / denominator));
         }
+        else if(value - (numerator/denominator) < 0){
+           equationString += " - " + ((numerator/denominator) - value);
+        }
 
 
 
