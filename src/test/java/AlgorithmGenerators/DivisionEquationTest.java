@@ -66,8 +66,6 @@ public class DivisionEquationTest {
         String actual = sut.generateEquation();
         String expected = "100 / 4 + 25";
 
-        System.out.println(actual);
-
         Assert.assertEquals(expected, actual);
     }
 

@@ -22,6 +22,12 @@ public class DivisionEquation extends EquationBase {
 
         String equationString = numerator + " / " + denominator;
 
+        if(value - (numerator/denominator) > 0){
+            equationString += " + " + (value - (numerator / denominator));
+        }
+
+
+
         return equationString;
     }
 }
