@@ -7,8 +7,8 @@ import java.util.Random;
  */
 public class AdditionEquation extends EquationBase{
 
-    public AdditionEquation(int value){
-        super(value);
+    public AdditionEquation(int value, Random rand){
+        super(value, rand);
     }
 
 

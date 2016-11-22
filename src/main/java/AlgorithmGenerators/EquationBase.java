@@ -9,9 +9,9 @@ abstract class EquationBase {
     protected int value;
     protected Random rand;
 
-    public EquationBase(int value){
+    public EquationBase(int value, Random rand){
         this.value = value;
-        rand = new Random();
+        this.rand = rand;
     }
 
     abstract String generateEquation();

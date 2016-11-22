@@ -7,8 +7,8 @@ import java.util.Random;
  */
 public class MultiplicationEquation extends EquationBase {
 
-    public MultiplicationEquation(int value){
-        super(value);
+    public MultiplicationEquation(int value, Random rand){
+        super(value, rand);
     }
 
     //Generates and returns a String representation of a multiplication equation, possible addition might be used
@@ -23,19 +23,19 @@ public class MultiplicationEquation extends EquationBase {
         }
 
         int secondMultiplicationValue;
-        int rest = value % multiplicationValue;
+        int remaining = value % multiplicationValue;
         //If rest is 0 then value/multiplicationValue will provide a second value for the equation to calculate the value
-        if(rest == 0){
+        if(remaining == 0){
             secondMultiplicationValue = value / multiplicationValue;
             return multiplicationValue + " * " + secondMultiplicationValue;
         }
         //else value must be modified to be dividable with multiplicationValue
         else{
             int equationValue = value;
-            equationValue -= rest;
+            equationValue -= remaining;
             secondMultiplicationValue = equationValue / multiplicationValue;
 
-            return multiplicationValue + " * " + secondMultiplicationValue + " + " + rest;
+            return multiplicationValue + " * " + secondMultiplicationValue + " + " + remaining;
         }
     }
 }

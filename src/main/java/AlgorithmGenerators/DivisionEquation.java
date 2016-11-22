@@ -1,5 +1,7 @@
 package AlgorithmGenerators;
 
+import java.util.Random;
+
 /**
  * Created by Lucas on 2016-11-13.
  */
@@ -10,12 +12,12 @@ public class DivisionEquation extends EquationBase {
     //TODO: change data-structure
     private int[] divisionValues = { 2, 3, 4, 5, 10};
 
-    public DivisionEquation(int value){
-        super(value);
+    public DivisionEquation(int value, Random rand){
+        super(value, rand);
     }
 
     public String generateEquation(){
-        int denominator = divisionValues[rand.nextInt(divisionValues.length)];
+        int denominator = rand.nextInt(9) + 2;
         int numerator = denominator * value;
 
         return numerator + " / " + denominator;

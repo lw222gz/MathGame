@@ -4,6 +4,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Random;
+
 import static org.junit.Assert.*;
 
 /**
@@ -19,11 +21,20 @@ public class DivisionEquationTest {
 
     @Test
     public void shouldReturnEquationString(){
-        sut = new DivisionEquation(50);
+
+        sut = new DivisionEquation(27, new Random());
         String actual = sut.generateEquation();
+        for(int i = 0; i < 50; i++){
+            System.out.println(sut.generateEquation());
+        }
 
         Assert.assertTrue(actual != null && actual.length() > 0);
     }
+
+    @Test
+    public void shouldGenerate
+
+
 
 
 }
